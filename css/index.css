@@ -1,0 +1,44 @@
+html{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    margin: 0%;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav{
+    margin-top: 2%;
+    padding: 3%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+nav a{
+    padding: 6px;
+    margin: 30px;
+    color: aqua;
+}
+
+nav a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+}
+
+img{
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 10px;
+}
