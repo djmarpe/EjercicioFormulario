@@ -8,6 +8,8 @@ function guardarDatos(){
 function cargarDatos(){
     var nombre = localStorage.getItem("nombre");
     var correo = localStorage.getItem("correo");
-    document.getElementById("titulo").value = nombre;
+    if (nombre != null){
+        document.getElementById("saludo").innerHTML = "Hola, " + nombre + "!";
+    }
     console.log(nombre);
 }

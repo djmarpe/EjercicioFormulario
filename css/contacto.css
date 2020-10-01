@@ -44,3 +44,13 @@ article{
     padding: 3%;
     align-items: center;
 }
+
+footer{
+    grid-area: footer;
+    margin-top: 2%;
+    padding: 3%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}

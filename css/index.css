@@ -42,3 +42,11 @@ img{
     width: 100%;
     border-radius: 10px;
 }
+
+article{
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 3%;
+    text-align: center;
+}
