@@ -1,0 +1,68 @@
+html{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-areas:    "header"
+                            "section"
+                            "footer";
+}
+
+header{
+    grid-area: header;
+    margin: 0%;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+section{
+    margin-top: 2%;
+    grid-area: section;
+    display: grid;
+    grid-template-areas: "presentacion  datos";
+}
+
+article.presentacion{
+    border-radius: 10px;
+    margin-right: 3px;
+    padding: 5%;
+    grid-area: presentacion;
+    background-color: grey;
+    color: white;
+}
+
+article.datos{
+    border-radius: 10px;
+    margin-left: 3px;
+    padding: 5%;
+    grid-area: datos;
+    background-color: white;
+    color: grey;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 2%;
+    padding: 3%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+footer a{
+    padding: 6px;
+    margin: 30px;
+    color: aqua;
+}
+
+footer a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+}
